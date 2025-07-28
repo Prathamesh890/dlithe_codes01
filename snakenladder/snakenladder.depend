@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1753503746 source:d:\snakenladder\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

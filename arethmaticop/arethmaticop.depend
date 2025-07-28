@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1753440274 source:c:\users\hp\desktop\dlithe_prgm\arethmaticop\main.cpp
+	<iostream>
+	<string.h>
+	<ctype.h>
+
