@@ -45,9 +45,31 @@ class Employee {
 };
 
 int main() {
-    Employee emp;
-    emp.inputDetails();
-    emp.displayDetails();
+    int n;
 
+    cin>>n;
+    Employee emp[n];
+    for(int i=0;i<n;i++ ){
+    emp[i].inputDetails();
+    emp[i].displayDetails();
+    }
+    bool found=false;
+    int x;
+    cout<<"enter ht";
+    cin>>x;
+    for(int i=0;i<n;i++)
+    {
+
+
+    if(x==emp[i].id)
+    {
+         found =true;
+        emp[i].displayDetails();
+    }
+    }
     return 0;
+    if(!found)
+    {
+        cout<<"not found";
+    }
 }
